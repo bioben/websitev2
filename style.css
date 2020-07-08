@@ -111,6 +111,9 @@
         height : 100%;
         /* filter : blur(1.5px) hue-rotate(163deg) saturate(30%) brightness(100%); */
     }
+    #backgroundImage2 {
+        display : hidden;
+    }
     #homeLarge {
         font-size: 5vw;
         text-align: left;
@@ -428,7 +431,7 @@
     }
 }
 
-/*Mobile responsive design*/
+/*****************************************************Mobile responsive design*/
 @media only screen and (max-width: 600px) {
     html, body {
         height : 100%;
@@ -477,31 +480,34 @@
     #homeText {
         padding-top: 30%;
         height : 70%;
-        padding-right : 40%;
-        width : 60%;
         font-family : monospace;
     }
     #homeTextHolder {
         width : 100%;
     }
     #backgroundImage {
+        display : hidden;
+    }
+    #backgroundImage2 {
         background-image : url("./images/propic_biology.jpg");
         background-size: cover;
         bottom : 0%;
-        position : absolute;
-        margin-left : 60%;
-        width : 40%;
-        height : 90%;
+        margin-left : 25%;
+        margin-right : 25%;
+        width : auto;
+        height : 50%;
+        margin-top : 10%;
     }
+
     #homeLarge {
         font-size: 200%;
-        text-align: left;
+        text-align: center;
         letter-spacing: 5px;
         font-weight: 300;
     }
     #homeSmall {
         font-size : 75%;
-        text-align : left;
+        text-align : center;
         letter-spacing : 3px;
         font-weight : 100;
     }
@@ -552,6 +558,9 @@
     }
 
     /*PROJECT PAGE*/
+    #projects {
+      height : auto;
+    }
     .featuredProject{
         margin-top : 5%;
         margin-bottom : 5%;
@@ -569,8 +578,21 @@
         margin-left : 25%;
         margin-right : 25%;
     }
-    .featuredProjectDescription {
+    .featuredProjectSubtitle {
         display: none;
+    }
+    .featuredProjectSkills {
+      display : none;
+    }
+    .featuredProjectMainDetails {
+        color : black;
+        display : inline-block;
+    }
+    .featuredProjectDetails {
+        display : none;
+    }
+    .featuredProjectDate {
+      display: none;
     }
     #gridProjects {
         overflow: auto;
@@ -582,19 +604,22 @@
         color : black;
         text-align: center;
         float : left;
-        width : 33%;
-        height : auto;
+        width : 30%;
+        padding-left : 10%;
+        padding-right : 10%;
+        height : 25%;
         overflow : auto;
     }
     .project:hover {
         background-color : #B3A369;
+        height : 25%;
+        width : 30%;
     }
     .projectImage {
         margin-top : 3%;
         width : 50%;
     }
     .projectTitle {
-        position : none;
         font-family: monospace;
         font-weight: bold;
         font-size : 1vw;
@@ -602,11 +627,6 @@
 
     .projectText {
         display : none;
-        position : none;
-        text-align: left;
-        font-family: monospace;
-        width : 85%;
-        margin : auto;
     }
 
     /********************RESUME*/
