@@ -16,7 +16,7 @@
     .specialHeader {
         color:#B3A369;
         font-weight: 600;
-        font-size : 1vw;
+        font-size : 1.25vw;
         font-family: monospace;
     }
     #pageHeader {
@@ -24,7 +24,7 @@
         float : left;
         width : auto;
         text-align: center;
-        font-size: 1vw;
+        font-size: 1.25vw;
         color : white;
         font-family : monospace;
         margin-left : 2%;
@@ -48,22 +48,26 @@
         text-decoration: none;
         text-align : center;
         float: right;
-        font-size: 2vw;
+        font-size: 2.5vw;
         margin-right : 1%;
         display : inline-block;
     }
     .nb:hover {
         background-color: #B3A369;
+        padding-left : .5vw;
+        padding-right : .5vw;
     }
     .nb {
         color : white;
         background-color : #335161;
         border : none;
         width : auto;
-        font-size: 1vw;
+        font-size: 1.25vw;
         font-family : monospace;
         letter-spacing: 0.2vw;
         text-decoration: none;
+        padding-left: .5vw;
+        padding-right : .5vw;
     }
     #linkHolder {
         margin-right : 2%;
@@ -144,6 +148,7 @@
     #aboutMeRight {
         position: none;
         font-family: monospace;
+        font-weight: bold;
         float : left;
         width : 35%;
         margin-right: 15%;
@@ -206,9 +211,6 @@
         font-family: monospace;
         border-style : solid;
         border-color : #B3A369;
-    }
-
-    .featuredProject:hover {
         background-color : #B3A369;
     }
     .featuredProjectLink {
@@ -293,10 +295,8 @@
         padding-left : 1%;
         padding-right : 1%;
         padding-top : 1%;
-    }
-    #resumeContent:hover {
         background-color : #B3A369;
-        margin-bottom : 0%;
+        font-size: 1.25vw;
     }
     #resumeLink {
         text-decoration: none;
@@ -382,18 +382,20 @@
         font-family: monospace;
     }
     .classes {
-        font-size: 1vw;
+        font-size: 1.5vw;
     }
 
     /************************CONTACT*/
     #contact {
         padding-bottom : 1vh;
         height : 80%;
+        font-weight: 300;
     }
     #contactContent {
         padding-top : 5vh;
         font-family: monospace;
         text-align: center;
+        font-size: 1.5vw;
     }
     #name {
         font-size: 2vw;
@@ -428,6 +430,8 @@
         padding-top : 1vw;
         background-color : #335161;
         color : white;
+        font-size: .8vw;
+        font-weight: bold;
     }
 }
 
