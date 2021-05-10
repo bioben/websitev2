@@ -148,7 +148,7 @@
     #aboutMeRight {
         position: none;
         font-family: monospace;
-        font-weight: bold;
+        font-weight: normal;
         float : left;
         width : 35%;
         margin-right: 15%;
@@ -239,7 +239,7 @@
         margin-bottom : 4vh;
     }
     .featuredProjectSubtitle {
-        font-weight: bold;
+        font-weight: normal;
         font-size: 1vw;
     }
     .featuredProjectDescription {
@@ -304,6 +304,7 @@
     }
     .resumeItem {
         margin-left : 5%;
+        margin-bottom: 3%;
     }
     .sectionItem {
         float : left;
