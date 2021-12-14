@@ -117,14 +117,13 @@
         width : 45vw;
     }
     #backgroundImage {
-        background-image : url("./images/propic_biology.jpg");
+        background-image : url("./images/20210727_HR_Intern-Head-Shot_Ben-Ahn_8985.jpg");
         background-size: cover;
         background-position: top;
         position : absolute;
-        margin-left : 60%;
-        width : 40%;
+        margin-left : 65%;
+        width : 35%;
         height : 100%;
-        /* filter : blur(1.5px) hue-rotate(163deg) saturate(30%) brightness(100%); */
     }
     #backgroundImage2 {
         display : hidden;
@@ -152,7 +151,7 @@
     }
     #aboutImage {
         height : 50%;
-        margin-top: 25%;
+        margin-top: 10%;
         margin-right: 25%;
         width : 30vw;
     }
@@ -162,6 +161,7 @@
         font-weight: normal;
         float : left;
         width : 35%;
+        margin-top: 2%;
         margin-right: 15%;
         font-size: 1vw;
     }
@@ -175,7 +175,7 @@
     }
     #aboutTableRight {
         font-family: monospace;
-        width : 55%;
+        width : 80%;
         margin: auto;
         padding-top: 5%;
     }

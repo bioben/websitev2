@@ -70,20 +70,19 @@
                 <div>
                     <div id="aboutMeTop">
                         <div id="aboutMeLeft">
-                            <img id="aboutImage" src="./images/Lab_headshot_2020.jpg" alt="No Image Available">
+                            <img id="aboutImage" src="./images/21_Internapalooza_9772.jpg" alt="No Image Available">
                         </div>
                         <div id="aboutMeRight">
-                            <p id="quote">"The difference between a science student and a scientist is research"</p>
                             <p id="quote2">
                                 I'm a fourth-year <b class="aboutSpecial">Biological
                                 Sciences</b> Major, concentrating in
                                 Computational Biology, at the <b class="aboutSpecial">
                                 Georgia Institute of Technology</b>.
                                 I currently research with the Wood Lab, Georgia Tech, where
-                                I investigate <b class="aboutSpecial">neuroimmune cell activity 
+                                I investigate <b class="aboutSpecial">neuroimmune cell activity
                                 and neuroinflammation in
-                                Alzheimer's Disease</b>. I work with cell cultures and mouse models
-                                to characterize, modulate, and restore neuroimmune function.
+                                Alzheimer's Disease</b>. I use genomic and proteomic approaches
+                                to characterize and modulate neuroimmune function.
                             </p>
                             <div id='researchTitle'>
                                 <div id="leftLine">
@@ -102,8 +101,9 @@
                                     <li>Immunoassays: Western blots, immunocyto/histochemistry</li>
                                     <li>Mouse Microdissections</li>
                                     <li>Lentiviral Transduction</li>
-                                    <li>Quantitative Immunofluorescent Imaging</li>
-                                    <li>LinuxOS, MATLAB, Python, Java, ImageJ, R, HTML/CSS</li>
+                                    <li>RNA extraction, qRT-PCR</li>
+                                    <li>Quantitative Immunofluorescent Imaging, FRET Imaging</li>
+                                    <li>LinuxOS, MATLAB, Python, Java, ImageJ, R</li>
                                 </ul>
                             </div>
                         </div>
@@ -123,7 +123,7 @@
 
             <div class = 'featuredProject'>
                     <div class = "featuredProjectTitle">
-                        <i>Featured: </i>Developing a Fluorescent Resonance Energy Transfer based Biosensor, quantifying ERK activity in Microglia
+                        <i>Featured: </i>Developing a reporter microglial cell line with Fluorescent Resonance Energy Transfer Biosensor
                     </div>
                     <div class = "featuredProjectLeft">
                         <img class="featuredProjectImage" src="./images/HEKcells.png" alt="No Image Available">
@@ -134,15 +134,15 @@
                                 Project Deliverables
                             </div>
                             <ul class = "featuredProjectMainDetails">
-                                <li>Produced lentivirus particles containing ERK reporter gene using HEK cells</li>
-                                <li>Successfully transduced BV2 microglia with lentvirus particles</li>
-                                <li>Selected microglia with ampicillin and expanded out cell line</li>
+                                <li>Produced lentivirus particles using HEK cells</li>
+                                <li>Transduced BV2 microglia</li>
+                                <li>Purified transduced cells via flow cytometry</li>
                             </ul>
                             <div class = "featuredProjectSubtitle">
                                 Skills Used
                             </div>
                             <ul class = "featuredProjectSkills">
-                                <li>Lentivirus production, gene editing, fluorescent imaging</li>
+                                <li>Lentivirus production, viral transduction, flow cytometric sorting, fluorescent imaging</li>
                                 <li>ImageJ, Zen Blue lite</li>
                             </ul>
                             <div class = "featuredProjectSubtitle">
@@ -159,7 +159,7 @@
         	<div class = 'featuredProject'>
         		<a class = "featuredProjectLink" href="Ahn_Benjamin_Heme_Processing_Pipeline.pdf" target="_blank">
 	        		<div class = "featuredProjectTitle">
-	        			<i>Featured: </i>Heme Processing Pipeline: Correcting Non-uniform Illumination and Image Processing in Histology
+	        			<i>Featured: </i>Correcting Non-uniform Illumination and Image Processing in Tiled Histology Images
 	        		</div>
 	        		<div class = "featuredProjectLeft">
 	        			<img class="featuredProjectImage" src="./images/heme_noneven_illumination_sample.jpg" alt="No Image Available">
@@ -171,7 +171,7 @@
 		                        Project Deliverables
 		                    </div>
 	                        <ul class = "featuredProjectMainDetails">
-	                            <li>Programming multi-step computational pipeline to correct nonuniform microscopic illumination and apply background-correction algorithms to quantify heme</li>
+	                            <li>Developed multi-step computational pipeline to correct nonuniform microscopic illumination and apply background-correction algorithms</li>
 	                            <li>Use low rank matrix to determine optimal correction matrix</li>
 	                            <li>Adaptable image-correction tool built for varying degrees of shading variability in histology</li>
 	                            <li>Use co-registration algorithm to subtract background and quantify heme</li>
@@ -196,14 +196,24 @@
 
             <div id="projectHolder">
                 <div id="gridProjects">
+                    <div class="project" id="projectAstrocytes">
+                            <img class="projectImage" src="./images/rsz_1ionisdata_whiteout.gif" alt="No Image Available">
+                            <p class="projectTitle">Characterizing Astrocyte Neuroinflammation</p>
+                            <ul class = "projectText">
+                                <li>Used RNA extraction and qRT-PCR on astrocyte cell cultures</li>
+                                <li>Analyzed whole-transcriptome data to identify differentially expressed genes from treated astrocytes</li>
+                                <li>Used Principal Component Analysis to compare gene expression profiles</li>
+                                <li>Python (Pandas, matplotlib), R</li>
+                                <li>Jun 2021 - Aug 2021, Ionis Pharmaceuticals</li>
+                            </ul>
+                    </div>
                     <div class="project" id="project3DMicroglia">
                             <img class="projectImage" src="./images/rsz_zstack_example.png" alt="No Image Available">
                             <p class="projectTitle">3D Microglia Morphology Pipeline</p>
                             <ul class = "projectText">
-                                <li>Invivo experiment, investigating temporal control of microglia activation using inflammatory factors</li>
-	                            <li>Programmed a pipeline to analyze microglia morphology from 3D histology image stacks to quantify extent of activation</li>
+	                              <li>Programmed a pipeline to analyze microglia morphology from 3D histology image stacks to quantify extent of activation</li>
                                 <li>Used Principal Component Analysis & statistical testing to determine signifcance of inflammatory factors on microglia response</li>
-                                <li>MATLAB, ImageJ</li>
+                                <li>MATLAB, ImageJ, R</li>
                                 <li>Apr 2020 - Dec 2020, Georgia Tech</li>
                             </ul>
                     </div>
@@ -234,21 +244,17 @@
 	                    </div>
 	                </a>
 
-	                <a href="Ahn_Benjamin_finalreport_spring2020.pdf" target="_blank">
 	                    <div class="project" id="project2DMicrolgia">
 	                            <img class="projectImage" src="./images/rsz_microgliapic.jpg" alt="No Image Available">
 	                            <p class="projectTitle">2D Microlgia Morphology Analysis</p>
                                 <ul class = "projectText">
-                                    <li>In-vivo experiment, treating mouse models with IP injections of inflammatory-modulating biomolecules. Microglia analyzed via immunohistochemistry</li>
                                     <li>Programmed pipeline to reduce background noise and create 2D Maximum Intensity Projection Images</li>
-                                    <li>Developed scripts to skeletonize & quantify branch length in 2D images</li>
+                                    <li>Developed scripts to skeletonize & quantify branch length of cells</li>
                                     <li>Created data visualizations of 5+ morphology traits</li>
                                     <li>MATLAB, ImageJ, R, Zen Blue lite</li>
                                     <li>Sept 2019 - Mar 2020, Georgia Tech</li>
                                 </ul>
 	                    </div>
-	                </a>
-                    <a href="https://github.com/bioben/microglia_protein_gene_expression.git" target="_blank">
                         <div class="project" id="projectWebsite2">
                             <img class="projectImage" src="./images/IL-4_v_Biomarker.png" alt="No Image Available">
                             <p class="projectTitle">Data Visualization of Microglial Protein & Gene Expression</p>
@@ -260,15 +266,11 @@
                                 <li>June 2020 - July 2020</li>
                             </ul>
                         </div>
-                    </a>
                     <div class="project" id="projectTemporalMicroglia">
                         <img class="projectImage" src="./images/MIP_20200205_355_Iba1_slide_1_1_CA100.jpg" alt="No Image Available">
-                        <p class="projectTitle">Quantifying Temporal Protein Expression in Microglia</p>
+                        <p class="projectTitle">Quantifying Protein Expression in treated Microglia</p>
                         <ul class = "projectText">
-                            <li>Treated BV2 microglial cell cultures
-                                with conditioned media (lipopolysaccharide,
-                                TNFalpha, or IFNgamma) over 72 hours. Quantified Iba-1
-                                and Arg-1 protein expression via immunocytochemistry
+                            <li>Immunocytochemistry
                                 and western blots.</li>
                             <li>MATLAB, ImageJ</li>
                             <li>Jan 2019 - Aug 2019, Georgia Tech</li>
@@ -404,10 +406,24 @@
                         <div class="sectionText">
                             <ul class="sectionTable">
                                 <li>President Undergraduate Research Award, 2021</li>
-                                <li>John R Ridley Award</li>
+                                <li>John R Ridley Award, 2021</li>
+                                <li>Biomedical Engineering Society Conference, Fall 2021</li>
                                 <li>Alzheimer's Association International Conference, Summer 2021</li>
                                 <li>Georgia Undergraduate Research Symposium, Spring 2021</li>
                             </ul>
+                        </div>
+                    </div>
+                    <div class="resumeItem">
+                        <div class="sectionSubheader">
+                            Ionis Pharmaceuticals
+                        </div>
+                        <div class="sectionPosition">
+                            Neuro Group, Researcher
+                        </div>
+                        <div class="sectionDate">
+                            Jun 2021 - Aug 2021
+                        </div>
+                        <div class="sectionText">
                         </div>
                     </div>
                     <div class="resumeItem">
@@ -423,7 +439,6 @@
                         <div class="sectionText">
                         </div>
                     </div>
-
                     <div class="resumeItem">
                         <div class="sectionSubheader">
                             GT-Emory COVID-19 Hackathon
@@ -432,7 +447,7 @@
                             Lead Programmer & Developer
                         </div>
                         <div class="sectionDate">
-                            May 2020 - present
+                            May 2020 - Dec 2020
                         </div>
                         <div class="sectionText">
                         </div>
@@ -465,7 +480,7 @@
                             Clinical Assistant
                         </div>
                         <div class = "sectionDate">
-                            Sept 2015 - present
+                            Sept 2015 - May 2022
                         </div>
                         <div class="sectionText">
                         </div>
@@ -479,7 +494,7 @@
                             Committee Chair
                         </div>
                         <div class = "sectionDate">
-                            May 2020 - present
+                            May 2020 - May 2022
                         </div>
                         <div class="sectionText">
                         </div>
@@ -496,7 +511,7 @@
                             Aug 2018 - May 2020
                         </div>
                         <div class="sectionText">
-                        
+
                         </div>
                     </div>
 
@@ -511,7 +526,7 @@
                             Dec 2018 - Jan 2019
                         </div>
                         <div class="sectionText">
-                        
+
                         </div>
                     </div>
                 </div>
@@ -540,7 +555,7 @@
             </div>
 
             <div id = "otherCourses">
-                
+
                 <ul class = "classes">
                     <li>PHYS2211 Life Science Physics I and Lab</li>
                     <li>PHYS2212 Life Science Physics II and Lab</li>
@@ -561,7 +576,7 @@
             </div>
             <div  id = "lifeSciences">
                 <ul class = "classes">
-                    <li>BIOS1108 Organismal Biology</li>
+                    <li>BIOS1108 Organismal Biology and Lab</li>
                     <li>BIOS2600 Genetics</li>
                     <li>BIOS2601 Genetics lab</li>
                     <li>BIOS2300 Ecology</li>
@@ -575,6 +590,7 @@
                     <li>BIOS4545 Human Genetics</li>
                     <li>BIOS4699 Undergraduate Research</li>
                     <li>LMC4701 Research Proposal Writing</li>
+                    <li>LMC4702 Research Thesis Writing</li>
                 </ul>
             </div>
         </section>
